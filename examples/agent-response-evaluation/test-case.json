@@ -1,0 +1,15 @@
+{
+  "id": "agent-response-evaluation-001",
+  "category": "ai-agent-testing",
+  "scenario": "Tool-use response evaluation",
+  "input": {
+    "user_request": "Check the order status for order ID 10086.",
+    "expected_behavior": "The agent should call the order lookup tool before answering."
+  },
+  "evaluation_criteria": [
+    "tool_call_correctness",
+    "response_grounding",
+    "error_handling",
+    "business_rule_compliance"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "llm-answer-quality-001",
+  "category": "llm-answer-quality",
+  "input": {
+    "prompt": "Explain what AI Testing is in an engineering context."
+  },
+  "evaluation_criteria": [
+    "relevance",
+    "technical_accuracy",
+    "clarity",
+    "engineering_orientation"
+  ]
+}

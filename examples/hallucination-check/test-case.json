@@ -1,0 +1,12 @@
+{
+  "id": "hallucination-check-001",
+  "category": "hallucination-check",
+  "input": {
+    "prompt": "List three verified features of a fictional AI platform named DemoAIQualityX."
+  },
+  "evaluation_criteria": [
+    "unsupported_claim_detection",
+    "source_grounding",
+    "uncertainty_expression"
+  ]
+}
