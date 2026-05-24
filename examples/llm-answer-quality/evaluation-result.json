@@ -1,0 +1,27 @@
+{
+  "case_id": "llm-answer-quality-001",
+  "passed": true,
+  "score": 0.85,
+  "criteria_results": [
+    {
+      "criterion": "relevance",
+      "passed": true,
+      "reason": "Response directly addresses the prompt without digression."
+    },
+    {
+      "criterion": "technical_accuracy",
+      "passed": true,
+      "reason": "All technical claims are correct and well-supported."
+    },
+    {
+      "criterion": "clarity",
+      "passed": false,
+      "reason": "Second paragraph uses overly dense terminology without explanation."
+    },
+    {
+      "criterion": "engineering_orientation",
+      "passed": true,
+      "reason": "Answer focuses on practical testing methodology rather than theory."
+    }
+  ]
+}

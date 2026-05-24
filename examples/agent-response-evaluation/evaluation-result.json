@@ -1,0 +1,27 @@
+{
+  "case_id": "agent-response-evaluation-001",
+  "passed": true,
+  "score": 0.75,
+  "criteria_results": [
+    {
+      "criterion": "tool_call_correctness",
+      "passed": true,
+      "reason": "Agent correctly invoked the order lookup tool before responding."
+    },
+    {
+      "criterion": "response_grounding",
+      "passed": true,
+      "reason": "Final answer is based on data retrieved from the tool call."
+    },
+    {
+      "criterion": "error_handling",
+      "passed": false,
+      "reason": "Agent did not handle the case where the order ID might not exist."
+    },
+    {
+      "criterion": "business_rule_compliance",
+      "passed": true,
+      "reason": "Response format follows the expected agent response template."
+    }
+  ]
+}

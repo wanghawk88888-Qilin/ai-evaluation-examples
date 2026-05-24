@@ -18,6 +18,18 @@ This repository provides simplified examples for evaluating AI system outputs, i
 This repository contains public engineering examples only.  
 It does not include any proprietary platform implementation, commercial workflow engine, private evaluation rules, or production system code.
 
+## Quick Start
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run validation
+python scripts/validate_result.py
+```
+
+The validation script performs basic structural checks on the static example files under `examples/` using the JSON Schema defined in `schemas/`. It does not invoke any LLM API or represent production platform logic.
+
 ## Example Categories
 
 - LLM answer quality evaluation

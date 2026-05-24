@@ -1,0 +1,22 @@
+{
+  "case_id": "json-output-validation-001",
+  "passed": true,
+  "score": 1.0,
+  "criteria_results": [
+    {
+      "criterion": "schema_conformance",
+      "passed": true,
+      "reason": "Output matches the expected JSON schema exactly."
+    },
+    {
+      "criterion": "field_completeness",
+      "passed": true,
+      "reason": "All required fields are present and non-null."
+    },
+    {
+      "criterion": "type_correctness",
+      "passed": true,
+      "reason": "All field types match the schema definition."
+    }
+  ]
+}
